@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-print("import finised")
-
 vid = cv2.VideoCapture(0)
 image_size=512
 read_size=40
