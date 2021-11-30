@@ -4,7 +4,7 @@ from PIL import ImageFont, ImageDraw, Image
 font = ImageFont.truetype("RobotoMono-Bold.ttf", 10)  
 
 print("import finised")
-
+print("press 'q' to end program")
 image_size=512  #video ouput size for one dimesnion, other dimesnion is in ratio with second dimension of camera video
 read_size=40 #number of vertical lines of ASCII in each frame
 text=["#","=",":","."," "," "," "] #5 shades of grey, darkest 3 shades of grey are taken as the same shade
